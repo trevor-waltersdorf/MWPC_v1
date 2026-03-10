@@ -1,0 +1,4 @@
+/Users/trevorwaltersdorf/geant4/MWPC_v1/build/CMakeFiles/sim.dir
+/Users/trevorwaltersdorf/geant4/MWPC_v1/build/CMakeFiles/MWPC_V1.dir
+/Users/trevorwaltersdorf/geant4/MWPC_v1/build/CMakeFiles/edit_cache.dir
+/Users/trevorwaltersdorf/geant4/MWPC_v1/build/CMakeFiles/rebuild_cache.dir
