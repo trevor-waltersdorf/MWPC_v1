@@ -8,12 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/trevorwaltersdorf/geant4/MWPC_v1/sim.cc" "CMakeFiles/sim.dir/sim.cc.o" "gcc" "CMakeFiles/sim.dir/sim.cc.o.d"
-  "/Users/trevorwaltersdorf/geant4/MWPC_v1/src/ActionInitialization.cc" "CMakeFiles/sim.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/sim.dir/src/ActionInitialization.cc.o.d"
-  "/Users/trevorwaltersdorf/geant4/MWPC_v1/src/DetectorConstruction.cc" "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o.d"
-  "/Users/trevorwaltersdorf/geant4/MWPC_v1/src/PhysicsList.cc" "CMakeFiles/sim.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PhysicsList.cc.o.d"
-  "/Users/trevorwaltersdorf/geant4/MWPC_v1/src/PrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o.d"
-  "/Users/trevorwaltersdorf/geant4/MWPC_v1/src/SensitiveDetector.cc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/sim.cc" "CMakeFiles/sim.dir/sim.cc.o" "gcc" "CMakeFiles/sim.dir/sim.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/src/ActionInitialization.cc" "CMakeFiles/sim.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/sim.dir/src/ActionInitialization.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/src/DetectorConstruction.cc" "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/sim.dir/src/DetectorConstruction.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/src/EventAction.cc" "CMakeFiles/sim.dir/src/EventAction.cc.o" "gcc" "CMakeFiles/sim.dir/src/EventAction.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/src/PhysicsList.cc" "CMakeFiles/sim.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/sim.dir/src/PhysicsList.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/src/PrimaryGenerator.cc" "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o" "gcc" "CMakeFiles/sim.dir/src/PrimaryGenerator.cc.o.d"
+  "/home/vitrum/Physics/MWPC_v1-main/src/SensitiveDetector.cc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/sim.dir/src/SensitiveDetector.cc.o.d"
+  "" "sim" "gcc" "CMakeFiles/sim.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

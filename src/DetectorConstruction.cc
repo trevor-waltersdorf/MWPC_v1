@@ -49,7 +49,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct() {
     leadVisAtt->SetForceSolid(true);
     logicLead->SetVisAttributes(leadVisAtt);
 
-    G4double wireRadius = 0.1 * mm;
+    G4double wireRadius = 1 * cm;
     G4double wireLength = 10. * cm;
     G4RotationMatrix* rotm = new G4RotationMatrix();
     rotm->rotateY(90.*deg);

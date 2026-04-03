@@ -1,23 +1,19 @@
-#ifndef SENSITIVEDETECTOR_HH
-#define SENSITIVEDETECTOR_HH
-
+#pragma once
 #include "G4VSensitiveDetector.hh"
-
-#include "G4SystemOfUnits.hh"
-#include "G4UnitsTable.hh"
+#include "G4HCofThisEvent.hh"
+#include "G4SDManager.hh"
+#include "Hit.hh"
 
 class SensitiveDetector : public G4VSensitiveDetector {
     public:
         SensitiveDetector(G4String);
-        ~SensitiveDetector();
+        ~SensitiveDetector() override;
+
+	void Initialize(G4HCofThisEvent* hce) override;
+	G4bool ProcessHits(G4Step* aStep, G4TouchableHistory*) override;
 
     private:
-        G4double fTotalEnergyDeposited;
-
-        virtual void Initialize(G4HCofThisEvent *) override;
-        virtual void EndOfEvent(G4HCofThisEvent *) override;
-
-        virtual G4bool ProcessHits(G4Step *, G4TouchableHistory *) override;
+	HitsCollection* fHitsCollection = nullptr;
+	G4int fHCID = -1;
 };
 
-#endif
